@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tscodex.com/sitemap.xml
+
