@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { motion } from 'framer-motion'
-import { ReactFlow, Node, Edge, Background, Controls, MiniMap } from 'reactflow'
+import { ReactFlow, Node, Edge, Background, Controls } from 'reactflow'
 import { Tabs, TabsList, TabsTrigger, TabsContent } from './ui/tabs'
 import 'reactflow/dist/style.css'
 
@@ -865,7 +865,7 @@ export function Architecture() {
             </TabsList>
 
             <TabsContent value="architecture">
-              <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
+              <div className="w-full max-w-[1150px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
                 <ReactFlow
                   nodes={architectureNodes}
                   edges={architectureEdges}
@@ -876,17 +876,12 @@ export function Architecture() {
                 >
                   <Background color="#1e1e2e" gap={16} />
                   <Controls className="bg-surface border-border" />
-                  <MiniMap
-                    className="bg-surface border-border"
-                    nodeColor="#12121a"
-                    maskColor="rgba(10, 10, 15, 0.8)"
-                  />
                 </ReactFlow>
               </div>
             </TabsContent>
 
             <TabsContent value="workspaces">
-              <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
+              <div className="w-full max-w-[1150px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
                 <ReactFlow
                   nodes={workspacesNodes}
                   edges={workspacesEdges}
@@ -897,17 +892,12 @@ export function Architecture() {
                 >
                   <Background color="#1e1e2e" gap={16} />
                   <Controls className="bg-surface border-border" />
-                  <MiniMap
-                    className="bg-surface border-border"
-                    nodeColor="#12121a"
-                    maskColor="rgba(10, 10, 15, 0.8)"
-                  />
                 </ReactFlow>
               </div>
             </TabsContent>
 
             <TabsContent value="secrets">
-              <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
+              <div className="w-full max-w-[1150px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
                 <ReactFlow
                   nodes={secretsNodes}
                   edges={secretsEdges}
@@ -918,17 +908,12 @@ export function Architecture() {
                 >
                   <Background color="#1e1e2e" gap={16} />
                   <Controls className="bg-surface border-border" />
-                  <MiniMap
-                    className="bg-surface border-border"
-                    nodeColor="#12121a"
-                    maskColor="rgba(10, 10, 15, 0.8)"
-                  />
                 </ReactFlow>
               </div>
             </TabsContent>
 
             <TabsContent value="authorization">
-              <div className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
+              <div className="w-full max-w-[1150px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
                 <ReactFlow
                   nodes={authNodes}
                   edges={authEdges}
@@ -939,11 +924,6 @@ export function Architecture() {
                 >
                   <Background color="#1e1e2e" gap={16} />
                   <Controls className="bg-surface border-border" />
-                  <MiniMap
-                    className="bg-surface border-border"
-                    nodeColor="#12121a"
-                    maskColor="rgba(10, 10, 15, 0.8)"
-                  />
                 </ReactFlow>
               </div>
             </TabsContent>

@@ -10,6 +10,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,212,170,0.1),transparent_50%)]" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+        <div className="h-8 sm:h-14 md:h-20"></div>
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}

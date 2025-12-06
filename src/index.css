@@ -37,3 +37,12 @@
   }
 }
 
+/* Hide React Flow attribution/watermark */
+.react-flow__attribution {
+  display: none !important;
+}
+
+.react-flow__attribution-button {
+  display: none !important;
+}
+
