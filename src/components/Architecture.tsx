@@ -857,12 +857,14 @@ export function Architecture() {
           transition={{ duration: 0.6, delay: 0.2 }}
         >
           <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-            <TabsList className="grid w-full max-w-4xl mx-auto grid-cols-4 mb-6 sm:mb-8">
-              <TabsTrigger value="architecture">System Architecture</TabsTrigger>
-              <TabsTrigger value="workspaces">Workspaces</TabsTrigger>
-              <TabsTrigger value="secrets">Secrets Management</TabsTrigger>
-              <TabsTrigger value="authorization">Authorization Flow</TabsTrigger>
-            </TabsList>
+            <div className="overflow-x-auto mb-6 sm:mb-8 -mx-4 sm:mx-0 px-4 sm:px-0 scrollbar-hide">
+              <TabsList className="inline-flex w-auto min-w-max sm:grid sm:w-full sm:max-w-4xl sm:mx-auto sm:grid-cols-4">
+                <TabsTrigger value="architecture" className="whitespace-nowrap">System Architecture</TabsTrigger>
+                <TabsTrigger value="workspaces" className="whitespace-nowrap">Workspaces</TabsTrigger>
+                <TabsTrigger value="secrets" className="whitespace-nowrap">Secrets Management</TabsTrigger>
+                <TabsTrigger value="authorization" className="whitespace-nowrap">Authorization Flow</TabsTrigger>
+              </TabsList>
+            </div>
 
             <TabsContent value="architecture">
               <div className="w-full max-w-[1150px] mx-auto h-[400px] sm:h-[500px] md:h-[600px] lg:h-[700px] rounded-lg border border-border bg-surface overflow-hidden">
