@@ -13,17 +13,17 @@ import { Footer } from '@/components/Footer'
 
 function LandingPage() {
   useSEO({
-    title: 'TSCodex - LLM Development Tools | MCP Manager Desktop Application',
-    description: 'MCP Manager - standalone desktop application for managing MCP (Model Context Protocol) servers. Centralized hub for configuring, running, and monitoring MCP servers with granular security controls and AI integration.',
-    keywords: 'MCP, Model Context Protocol, LLM, AI, Cursor, VS Code, MCP Manager, MCP Server, AI Development Tools, Desktop Application, Electron, Workspace Management, Secrets Management, AI Agent, Dynamic Tools, MCP SDK',
-    ogTitle: 'TSCodex - LLM Development Tools | MCP Manager',
-    ogDescription: 'MCP Manager - standalone desktop application for managing MCP servers. Tools for working with Large Language Models.',
+    title: 'TSCodex - MCP Manager Tools | MCP Manager Desktop Application',
+    description: 'MCP Manager - open source standalone desktop application for managing MCP (Model Context Protocol) servers. Centralized hub for configuring, running, and monitoring MCP servers with granular security controls and AI integration.',
+    keywords: 'MCP, Model Context Protocol, Cursor, VS Code, MCP Manager, MCP Server, MCP Tools, Desktop Application, Electron, Workspace Management, Secrets Management, AI Agent, Dynamic Tools, MCP SDK',
+    ogTitle: 'TSCodex - MCP Manager Tools | MCP Manager',
+    ogDescription: 'MCP Manager - open source standalone desktop application for managing MCP servers. Tools for managing MCP servers and building MCP infrastructure.',
     ogImage: 'https://tscodex.com/og-image.png',
     ogUrl: 'https://tscodex.com',
     ogSiteName: 'TSCodex',
     ogLocale: 'en_US',
     twitterCard: 'summary_large_image',
-    twitterTitle: 'TSCodex - LLM Development Tools | MCP Manager',
+    twitterTitle: 'TSCodex - MCP Manager Tools | MCP Manager',
     twitterDescription: 'MCP Manager - standalone desktop application for managing MCP servers',
     twitterImage: 'https://tscodex.com/og-image.png',
     twitterCreator: '@unbywyd',

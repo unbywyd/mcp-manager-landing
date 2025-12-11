@@ -1,5 +1,6 @@
 import { Separator } from './ui/separator'
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, Github } from 'lucide-react'
+import { Badge } from './ui/badge'
 
 const links = {
   products: [
@@ -24,9 +25,22 @@ export function Footer() {
             <h3 className="text-xl sm:text-2xl font-bold bg-gradient-accent bg-clip-text text-transparent mb-4">
               TSCodex
             </h3>
-            <p className="text-sm sm:text-base text-text-secondary">
-              Tools for working with Large Language Models
+            <p className="text-sm sm:text-base text-text-secondary mb-4">
+              Tools for managing MCP servers and building MCP infrastructure
             </p>
+            <a
+              href="https://github.com/unbywyd/tscodex-mcp-manager-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Badge 
+                variant="outline" 
+                className="px-3 py-1.5 text-xs sm:text-sm border-primary/50 text-primary hover:bg-primary/10 transition-colors flex items-center gap-2 w-fit"
+              >
+                <Github className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span>Open Source</span>
+              </Badge>
+            </a>
           </div>
 
           {/* Products */}

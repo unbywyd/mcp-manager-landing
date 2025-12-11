@@ -6,7 +6,7 @@ import { ExternalLink, Package } from 'lucide-react'
 const packages = [
   {
     name: '@tscodex/mcp-sdk',
-    description: 'Core SDK - TypeScript SDK for creating LLM tools based on Model Context Protocol',
+    description: 'Core SDK - TypeScript SDK for creating MCP servers and tools based on Model Context Protocol',
     npm: 'https://www.npmjs.com/package/@tscodex/mcp-sdk',
     github: 'https://github.com/unbywyd/tscodex-mcp-sdk',
   },

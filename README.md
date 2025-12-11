@@ -1,6 +1,6 @@
 # TSCodex Landing Page
 
-Landing page for [tscodex.com](https://tscodex.com) - a project for LLM development tools.
+Landing page for [tscodex.com](https://tscodex.com) - an open source project for MCP Manager and MCP tools.
 
 ## Technologies
 

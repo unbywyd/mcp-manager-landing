@@ -1,6 +1,7 @@
 import { Button } from './ui/button'
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, Github } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { Badge } from './ui/badge'
 
 export function Hero() {
   return (
@@ -20,19 +21,34 @@ export function Hero() {
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-text-primary mb-4 sm:mb-6">
               TSCodex
               <span className="block text-2xl sm:text-3xl md:text-4xl lg:text-5xl mt-2 sm:mt-4 text-text-secondary font-normal">
-                LLM Development Tools
+                MCP Manager Tools
               </span>
             </h1>
           </motion.div>
 
-          <motion.p
+          <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-lg sm:text-xl md:text-2xl text-text-secondary mb-6 sm:mb-8 max-w-2xl mx-auto"
+            className="flex flex-col items-center gap-4 mb-6 sm:mb-8"
           >
-            Tools for working with Large Language Models
-          </motion.p>
+            <p className="text-lg sm:text-xl md:text-2xl text-text-secondary max-w-2xl mx-auto">
+              Tools for managing MCP servers and building MCP infrastructure
+            </p>
+            <a
+              href="https://github.com/unbywyd/tscodex-mcp-manager-app"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Badge 
+                variant="outline" 
+                className="px-4 py-2 text-sm sm:text-base border-primary/50 text-primary hover:bg-primary/10 transition-colors flex items-center gap-2"
+              >
+                <Github className="w-4 h-4" />
+                <span>Open Source</span>
+              </Badge>
+            </a>
+          </motion.div>
 
           <motion.p
             initial={{ opacity: 0, y: 20 }}

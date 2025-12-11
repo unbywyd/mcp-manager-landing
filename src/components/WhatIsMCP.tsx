@@ -1,6 +1,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './ui/card'
-import { Server, Settings, Key, Brain, Zap } from 'lucide-react'
+import { Server, Settings, Key, Brain, Zap, Github } from 'lucide-react'
 import { motion } from 'framer-motion'
+import { Badge } from './ui/badge'
 
 const features = [
   {
@@ -44,11 +45,25 @@ export function WhatIsMCP() {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary mb-4 sm:mb-6">
             What is MCP Manager?
           </h2>
-          <p className="text-base sm:text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-text-secondary max-w-3xl mx-auto leading-relaxed mb-4">
             Standalone desktop application for managing MCP (Model Context Protocol) servers.
             MCP Manager provides a centralized hub for configuring, running, and monitoring
             MCP servers with granular security controls and AI integration.
           </p>
+          <a
+            href="https://github.com/unbywyd/tscodex-mcp-manager-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block"
+          >
+            <Badge 
+              variant="outline" 
+              className="px-4 py-2 text-sm sm:text-base border-primary/50 text-primary hover:bg-primary/10 transition-colors flex items-center gap-2"
+            >
+              <Github className="w-4 h-4" />
+              <span>Open Source Project</span>
+            </Badge>
+          </a>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
