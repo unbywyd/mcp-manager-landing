@@ -1,5 +1,5 @@
 import { Button } from './ui/button'
-import { ExternalLink } from 'lucide-react'
+import { ExternalLink, Package } from 'lucide-react'
 
 export function Header() {
   return (
@@ -15,6 +15,14 @@ export function Header() {
 
           {/* Navigation Buttons */}
           <nav className="flex items-center gap-2 sm:gap-4">
+            <a
+              href="#sdk-packages"
+              className="inline-flex items-center gap-1.5 text-xs sm:text-sm text-text-secondary hover:text-primary transition-colors"
+            >
+              <Package className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
+              <span className="hidden sm:inline">SDK & Packages</span>
+              <span className="sm:hidden">Packages</span>
+            </a>
             <a
               href="https://github.com/unbywyd/tscodex-mcp-manager-app"
               target="_blank"
