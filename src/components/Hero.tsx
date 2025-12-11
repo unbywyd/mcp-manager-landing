@@ -74,7 +74,7 @@ export function Hero() {
               </Button>
             </a>
             <a
-              href="https://marketplace.visualstudio.com/items?itemName=unbywyd.mcp-manager-bridge"
+              href="https://github.com/unbywyd/tscodex-msp-manager-bridge/releases"
               target="_blank"
               rel="noopener noreferrer"
               className="group"
