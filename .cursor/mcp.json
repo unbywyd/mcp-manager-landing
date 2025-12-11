@@ -4,9 +4,13 @@
       "url": "http://127.0.0.1:4040/mcp/bc15e57a-3da8-4964-a0a4-a24240d0670a/7896cf1a-def0-4154-ba6c-0a44c91b4b10",
       "id": "bc15e57a-3da8-4964-a0a4-a24240d0670a"
     },
-    "mcp-server-example": {
-      "url": "http://127.0.0.1:4040/mcp/af4b5c1e-6f31-4524-ab8d-4faa82b92c7e/7896cf1a-def0-4154-ba6c-0a44c91b4b10",
-      "id": "af4b5c1e-6f31-4524-ab8d-4faa82b92c7e"
+    "mcp-screenshot": {
+      "url": "http://127.0.0.1:4040/mcp/b5779b26-9fcb-49a0-910e-5149f81a632e/7896cf1a-def0-4154-ba6c-0a44c91b4b10",
+      "id": "b5779b26-9fcb-49a0-910e-5149f81a632e"
+    },
+    "mcp-pdf": {
+      "url": "http://127.0.0.1:4040/mcp/5cb5017a-6c98-4f58-830a-b30bb8e6cc93/7896cf1a-def0-4154-ba6c-0a44c91b4b10",
+      "id": "5cb5017a-6c98-4f58-830a-b30bb8e6cc93"
     }
   }
 }

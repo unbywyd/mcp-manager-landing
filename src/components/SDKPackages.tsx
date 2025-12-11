@@ -6,21 +6,27 @@ import { ExternalLink, Package } from 'lucide-react'
 const packages = [
   {
     name: '@tscodex/mcp-sdk',
-    description: 'Core SDK for creating MCP servers. Base for fast HTTP MCP server creation.',
+    description: 'Core SDK - TypeScript SDK for creating LLM tools based on Model Context Protocol',
     npm: 'https://www.npmjs.com/package/@tscodex/mcp-sdk',
     github: 'https://github.com/unbywyd/tscodex-mcp-sdk',
   },
   {
     name: '@tscodex/mcp-images',
-    description: 'Image processing, stock search, AI generation. Example server based on SDK.',
+    description: 'MCP (Model Context Protocol) server for comprehensive image processing, stock image search, and AI image generation. Built with TypeScript and Sharp for high-performance image manipulation.',
     npm: 'https://www.npmjs.com/package/@tscodex/mcp-images',
     github: 'https://github.com/unbywyd/tscodex-mcp-images',
   },
   {
-    name: '@tscodex/mcp-server-example',
-    description: 'Example MCP server implementation. Examples and best practices.',
-    npm: 'https://www.npmjs.com/package/@tscodex/mcp-server-example',
-    github: 'https://github.com/unbywyd/tscodex-mcp-server-example',
+    name: '@tscodex/mcp-screenshot',
+    description: 'MCP server for capturing web page screenshots using Playwright. Supports full page, viewport, and element screenshots with optional script execution for complex interactions.',
+    npm: 'https://www.npmjs.com/package/@tscodex/mcp-screenshot',
+    github: 'https://github.com/unbywyd/tscodex-mcp-screenshot',
+  },
+  {
+    name: '@tscodex/mcp-pdf',
+    description: 'MCP server for generating PDF documents from Markdown, HTML, and URLs using Playwright',
+    npm: 'https://www.npmjs.com/package/@tscodex/mcp-pdf',
+    github: 'https://github.com/unbywyd/tscodex-mcp-pdf',
   },
 ]
 
